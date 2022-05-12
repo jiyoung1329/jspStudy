@@ -1,0 +1,18 @@
+ footer{
+ 	text-align: center;
+ }
+ 
+ footer a {
+ 	text-decoration: none;
+ 	color: #000000;
+ 	font-weight: bold;
+ }
+ 
+ h1 {
+ 	font-size: 30px; 
+ 	font-weight: bold; 
+ 	text-align: center;
+ 	min-height: 800px;
+ }
+ 
+ .error {color: red;}
