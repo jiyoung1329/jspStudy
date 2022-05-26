@@ -23,4 +23,22 @@ public class MemberDAO {
 		
 		return null;
 	}
+	
+	public void update(MemberDTO member) {
+		for (int i=0; i<members.size(); i++) {
+			if (members.get(i).getId().equals(member.getId())) {
+				members.set(i, member);
+			}
+				
+		}
+	}
+	
+	public void delete(MemberDTO member) {
+		for (int i=0; i<members.size(); i++) {
+			if (members.get(i).getId().equals(member.getId())) {
+				members.remove(i);
+			}
+				
+		}
+	}
 }

@@ -8,7 +8,6 @@ body
 {
 	width : 1000px;
 	height : auto;
-	min-height: 1200px;
 	background-image : url(/care/images/shadow.png);
 	background-repeat : repeat-y;
 	margin-left : auto;
@@ -182,12 +181,8 @@ nav a:hover
 {
 	clear : both;
 }
-footer{
-	position: absolute;
-	bottom: -500px;
-}
 footer hr
-{	
+{
 	width : 945px;
 	margin : 40px 0 20px 12px;
 }
@@ -199,6 +194,21 @@ footer hr
 }
 #social
 {
-	margin : 5px 0 50px 100px;
+	width: 100px;
+	position: relative;
+	left: 850px;
+	top : -35px;
 }
-		
+
+
+
+
+
+
+
+
+
+
+
+
+	

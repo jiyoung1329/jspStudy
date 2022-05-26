@@ -1,6 +1,6 @@
-<%@page import="session.MemberDTO"%>
+<%@page import="session_concept.MemberDTO"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="session.MemberDAO"%>
+<%@page import="session_concept.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <%@page import="java.util.ArrayList"%>
-<%@page import="session.MemberDTO"%>
-<%@page import="session.MemberDAO"%>
+<%@page import="session_concept.MemberDTO"%>
+<%@page import="session_concept.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
@@ -19,8 +19,6 @@
 	// 아이디 존재 여부 확인
 	MemberDTO member = memberDao.selectId(id);
 	session = request.getSession();
-	System.out.println("remember" + rememberId);
-	System.out.println(session.getAttribute("login") + "	" + session.getAttribute("id"));
 	if(member == null){
 		out.print("<script>alert('아이디가 존재하지 않습니다.'); location.href='login.jsp';</script>");
 		return;

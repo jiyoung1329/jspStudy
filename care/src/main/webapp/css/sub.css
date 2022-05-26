@@ -177,8 +177,14 @@
 {
 	background-image: url(/care/images/member/cancel_back.jpg);
 }
-/*list.jsp*/
 
+/* list.jsp */
+#img_cen
+{
+	background-image: url(/care/images/center/sub_back.png);
+	width: 970px;
+	height: 180px;
+}
 #article_sub h1 { font-size: 30px;}
 #article_sub table { width: 640px;} 
 #article_sub table th
@@ -206,7 +212,10 @@
 #page_control { text-align: center; }
 #page_control a { color: #333; }
 #page_control a:hover { color: #f90; }
-/*view.php */
+#center_button{text-align: right; margin-right: 18px;}
+
+ 
+/*view.jsp */
 #view_title
  {
  	width: 100%;
@@ -241,13 +250,9 @@
 	color: #333;
 	margin-top: 5px;
 }
+
 /* write.jsp */
-#img_cen
-{
-	background-image: url(/care/images/center/sub_back.png);
-	width: 970px;
-	height: 180px;
-}
+
 #write_table{width: 100%;}
 #write_table .col1
 {
@@ -275,4 +280,19 @@
 }
 .line { 	border-bottom : 1px solid #ccc; 	width: 97%; }
 
- #center_button{text-align: right; margin-right: 18px;}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

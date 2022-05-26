@@ -23,7 +23,7 @@
 </script>
 </head>
 <body>
-	<form action="test.jsp" method="post" id="f">
+	<form action="memberService.jsp" method="post" id="f">
 		<input type="text" name="id" id="id" placeholder="아이디"><br>
 		<input type="password" name="pw" id="pw" placeholder="비밀번호"><br>
 		<input type="password" name="confirmPw" id="confirmPw" placeholder="비밀번호 확인"><br>

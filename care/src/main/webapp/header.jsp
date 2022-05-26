@@ -13,8 +13,16 @@
 	<div id="wrap">
 		<header>
 			<div id="login">
+				<%
+					String id = (String) session.getAttribute("id");
+					if (id == null){
+				%>
 				<a href="/care/member/login.jsp"> Login </a> 
 				<a href="/care/member/member.jsp"> Membership </a>
+				<%} else {%>
+				<a href="/care/member/logout.jsp"> Logout </a>
+				<a href="/care/member/modify.jsp"> My Page </a>
+				<%} %>
 			</div>
 			<div id="logo">
 				<h1> <a href="/care/index.jsp">CARE LAB</a></h1>

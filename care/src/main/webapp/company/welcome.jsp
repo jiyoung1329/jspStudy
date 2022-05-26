@@ -18,7 +18,7 @@
  <h1>안전하고 원활한 디지털 정보의 흐름 </h1>
  
  	<figure>
- 		<img src="/care/images/moto.gif"/>
+ 		<img src="/jsp01/images/moto.gif"/>
  		<figcaption>회사 로고</figcaption>
  	</figure>
  	
